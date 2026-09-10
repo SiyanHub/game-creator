@@ -1,0 +1,9 @@
+{
+  "name": "game-creator",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Game media skill with explicit provider adapters, safe outputs and resumable tasks",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test cli.test.mjs runtime.test.mjs media-inputs.test.mjs", "doctor": "node asset-gen.mjs doctor" }
+}

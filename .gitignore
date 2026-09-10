@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+outputs/
+BH Test/
+*.task.json
+*.log
+*.zip
+*.skill
+__pycache__/
+.DS_Store
